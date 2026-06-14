@@ -1,39 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>wiki springfiel</title>
-        <body> 
-            
-            <header align="CENTER">
-                <h1>Bienvenido a la Wiki de springfiel</h1>
-                <hr>
-                <p>
-                    El centro de informacion definitivo sobre los habitantes de la ciudad de los <strong>Los Simpson</strong><br>
-                    Este proyecto ha sido construido de forma estática utilizando la estructura básica de HTML 
 
-                </p>
-                <img src="img/SIMPSON.avif" width="40%">
-            </header>
-            <hr>
-            <nav>
-                <nav align="center">
-                <a href=""><strong>Inicio</strong></a>
-                <a href="homero.html"> Ver ficha de Homero Simpson</a>
-            </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Springfield</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
 
-        </body>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="pages/homero.html">Ficha de Homero</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/familiasimpson.html">Familia Simpson</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header-wiki text-center">
+        <div class="container">
+             <h1 class="display-4">Bienvenido a la Wiki de Springfield</h1>
         <hr>
+        <p>
+            El centro de información definitivo sobre los habitantes de la ciudad de <strong>Los Simpson.</strong><br>
+            Este proyecto ha sido construido de forma estática utilizando la estructura básica de HTML.
+        </p>
+        <img src="img/SIMPSON.avif" alt="Imagen de Homero" class="img-Simpson img-fluid mt-3" style="max-width: 400px;">
+        </div>
+    </header>
+    <hr>
+</body>
 
+<footer>
 
-            <footer>
-                <div align="CENTER"> 
-                    <p>Sitio desarrollado por Junior Euceda - 2026 ©</p>  
-                </div>
-               
+    <div align="center">
+        <p>Sitio desarollado por <strong>Junior Euceda</strong> - 2026 ©</p>
+    </div>
+</footer>
 
-            </footer>
-        
-    </head>
 </html>
